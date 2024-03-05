@@ -1,0 +1,9 @@
+.headerSec{
+  background-color: black;
+  width: 100vw;
+  height: 7vh;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

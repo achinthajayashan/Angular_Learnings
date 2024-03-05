@@ -6,11 +6,12 @@ import { Component } from '@angular/core';
   imports: [],
   template: `
     <p>
-      home works!
+        {{taskTitle}}
     </p>
   `,
   styleUrl: './home.component.css'
 })
 export class HomeComponent {
+    taskTitle = 'This Is Home Component'
 
 }

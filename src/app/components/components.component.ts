@@ -4,11 +4,7 @@ import { Component } from '@angular/core';
   selector: 'app-components',
   standalone: true,
   imports: [],
-  template: `
-    <p>
-      components works!
-    </p>
-  `,
+  templateUrl:'./components.component.html',
   styleUrl: './components.component.css'
 })
 export class ComponentsComponent {

@@ -8,4 +8,9 @@
   <h5>Apply Toggle button status</h5>
 
   <button class="btn" [ngClass]="{active:isActive , inactive:!isActive}" (click)="isActive=!isActive">Toggle Button</button>
+
+
+  <h5>Apply Toggle button status using methods</h5>
+
+  <button class="btn" [ngClass]="getDynamicClass()" (click)="isActive=!isActive">Toggle Button</button>
 </main>

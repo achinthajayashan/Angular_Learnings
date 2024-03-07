@@ -4,4 +4,8 @@
   <h5>Apply dynamic CSS styles on condition</h5>
 
   <p [ngClass]="{'text-green': age>20 , 'text-red': age<=20}">My age is {{age}}</p>
+
+  <h5>Apply Toggle button status</h5>
+
+  <button class="btn" [ngClass]="{active:isActive , inactive:!isActive}" (click)="isActive=!isActive">Toggle Button</button>
 </main>

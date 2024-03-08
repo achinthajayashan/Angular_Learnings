@@ -35,6 +35,15 @@
 
     </div>
 
+    <p>with indexes</p>
+
+    <div *ngFor="let fruit of data let i=index">
+      {{i}}:
+      {{fruit.name}},
+      {{fruit.color}}
+
+    </div>
+
 
   </section>
 </main>

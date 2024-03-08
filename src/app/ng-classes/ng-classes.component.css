@@ -1,0 +1,17 @@
+.text-green{
+  color: green;
+}
+
+.text-red{
+  color: red;
+}
+
+.active{
+  background-color: dodgerblue;
+  color: white;
+}
+
+.inactive{
+  background-color: white;
+  color: dodgerblue;
+}

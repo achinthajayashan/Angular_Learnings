@@ -27,6 +27,9 @@ export class HomeComponent {
     taskTitle = 'This Is Home Component';
     isTitleChanged= false;
 
+
+
+
     // behaviors
     updateTitle(newTitle: string){
       this.taskTitle = newTitle

@@ -13,4 +13,28 @@
   <h5>Apply Toggle button status using methods</h5>
 
   <button class="btn" [ngClass]="getDynamicClass()" (click)="isActive=!isActive">Toggle Button</button>
+
+  <h5>ng moodels</h5>
+
+  <input type="text" [(ngModel)]="title"/>
+  <p>{{title}}</p>
+
+
+  <section>
+    <h1>NgIf</h1>
+
+    <p *ngIf="condition">Visible and hide on NgIf true and false</p>
+
+    <p class="bg-danger text-white p-2" *ngIf="qtyOfitem<10">Quantity is low</p>
+
+  <h1> NgFor</h1>
+
+    <div *ngFor="let fruit of data">
+      {{fruit.name}},
+      {{fruit.color}}
+
+    </div>
+
+
+  </section>
 </main>

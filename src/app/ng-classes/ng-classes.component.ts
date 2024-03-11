@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import {NgClass, NgForOf, NgIf} from "@angular/common";
+import {NgClass, NgForOf, NgIf, NgSwitch, NgSwitchCase} from "@angular/common";
 import {RouterModule} from "@angular/router";
 import {FormsModule} from "@angular/forms";
 
@@ -10,7 +10,9 @@ import {FormsModule} from "@angular/forms";
     NgClass,
     FormsModule,
     NgIf,
-    NgForOf
+    NgForOf,
+    NgSwitch,
+    NgSwitchCase
   ],
   // template: `
   //   <p>
@@ -21,7 +23,7 @@ import {FormsModule} from "@angular/forms";
   styleUrl: './ng-classes.component.css'
 })
 export class NgClassesComponent {
- age= 15;
+ age= 21;
 
  isActive=false;
 
@@ -33,7 +35,7 @@ export class NgClassesComponent {
 
   // ng if
 
-  condition =true;
+  condition =false;
 
  qtyOfitem=12;
 
@@ -45,4 +47,6 @@ export class NgClassesComponent {
    {name:"mango" ,color:"green" },
    {name:"grapes" ,color:"purple" }
  ];
+
+ color = "red";
 }

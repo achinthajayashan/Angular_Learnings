@@ -46,4 +46,15 @@
 
 
   </section>
+
+  <section>
+    <h1>NgSwitch</h1>
+
+    <div [ngSwitch]="color" ]>
+      <div *ngSwitchCase="'red'">Red</div>
+      <div *ngSwitchCase="'green'">Green</div>
+      <div *ngSwitchCase="'blue'">Blue</div>
+    </div>
+
+  </section>
 </main>

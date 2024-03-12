@@ -1,0 +1,7 @@
+<main class="container">
+  <ul>
+    <li *ngFor=" let item of urgentTasks()">Task : {{item.title}}</li>
+  </ul>
+
+  <button (click)="addTask()" class="btn-dark btn">Add Urgent Task</button>
+</main>
